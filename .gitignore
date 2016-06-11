@@ -1,0 +1,4 @@
+# Do not alter the config file, as it usually contains
+# the bot token and/or other private data. Only use 
+# empty example template already in git
+config.json
