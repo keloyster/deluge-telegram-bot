@@ -12,6 +12,7 @@ A bot that uses the Telegram API to notify a user when downloading is complete.
 - Create a Telegram API Token ([talk to BotFather](https://telegram.me/botfather))
 - Add token to `config.json` file
 - Make sure downloadcomplete.py is executable (`chmod u+x downloadcomplete.py`)
+> Note: I found that removable media (like an external hdd) cannot have executable files by default. I solved this by not having this script on the external device, but there are other mount options to fix this.
 - Do a test run by calling `python downloadcomplete.py idHere nameHere locHere`
 - Add script to Deluge Execute Plugin and download a file!
 
