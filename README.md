@@ -8,13 +8,13 @@ A bot that uses the Telegram API to notify a user when downloading is complete.
 - [Python Telegram Bot](https://pypi.python.org/pypi/python-telegram-bot) (handy to also have `pip` installed so you can easily install this package)
 
 ## Installation
+
+> Note for step 1 and 4: I found that removable media (like an external hdd) cannot have executable files by default. I solved this by not having this script on the external device, but there are other mount options to fix this.
+
 1. Clone repository to your computer
 2. Create a Telegram API Token ([talk to BotFather](https://telegram.me/botfather))
 3. Add token to `config.json` file
 4. Make sure downloadcomplete.py is executable (`chmod u+x downloadcomplete.py`)
-
-> Note: I found that removable media (like an external hdd) cannot have executable files by default. I solved this by not having this script on the external device, but there are other mount options to fix this.
-
 5. Do a test run by calling `python downloadcomplete.py idHere nameHere locHere`
 6. Open Deluge Execute plug-in and add new command for torrent complete. Should look something like `~/scripts/deluge-telegram-bot/downloadcomplete.py`
 
